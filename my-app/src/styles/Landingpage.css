@@ -1,4 +1,51 @@
 #home {
     height: 100vh;
-    background-color: black;
+    /* background-color: black; */
 }
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    color:#8C613B;
+
+}
+
+.hey {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.home-info h1 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.intro {
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+    
+.emjoi {
+    font-size: 300px;
+    padding-right: 120px;
+}
+
+.contact-button{
+    padding: 10px 25px;
+    background-color: #8CA672;
+    border: none;
+    text-decoration: none;
+    color: #8C613B;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/* 
+.contact-button a {
+    text-decoration: none;
+    color: #8C613B;
+    font-weight: bold;
+    font-size: 15px;
+} */
