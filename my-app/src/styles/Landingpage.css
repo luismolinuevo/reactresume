@@ -1,30 +1,37 @@
 #home {
     height: 100vh;
+    /* background-image: url("../assets/bg.jpg");
+    background-color: #131515;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center/center;
+     */
     /* background-color: black; */
 }
 
 .hero {
     display: flex;
     justify-content: space-between;
-    padding-top: 50px;
-    color:#8C613B;
+    padding-top: 130px;
+    color:#0D0D0D;
 
 }
 
 .hey {
     font-size: 35px;
     font-weight: bold;
+    color:#05AFF2;
 }
 
 .home-info h1 {
-    font-size: 45px;
+    font-size: 70px;
     font-weight: bold;
 }
 
 .intro {
     font-size: 30px;
     font-weight: bold;
-    padding-bottom: 15px;
+    padding-bottom: 25px;
 }
     
 .emjoi {
@@ -34,18 +41,18 @@
 
 .contact-button{
     padding: 10px 25px;
-    background-color: #8CA672;
+    /* background-color: #8CA672; */
+    color:#F2F2F2;
+    background-color: #05AFF2;
     border: none;
     text-decoration: none;
-    color: #8C613B;
+    /* color: #8C613B; */
     font-weight: bold;
-    font-size: 15px;
+    font-size: 20px;
+    transition: 0.8s;
+    overflow: hidden;
 }
 
-/* 
-.contact-button a {
-    text-decoration: none;
-    color: #8C613B;
-    font-weight: bold;
-    font-size: 15px;
-} */
+.accent {
+    color:#05AFF2;
+}

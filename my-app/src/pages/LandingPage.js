@@ -1,5 +1,6 @@
 import React from 'react'
 import "../styles/Landingpage.css"
+import Button from '@mui/material/Button';
 
 const LandingPage = () => {
   return (
@@ -8,17 +9,16 @@ const LandingPage = () => {
             <div className = "container">
               <div className = "hero">
                 <div className ="home-info">
-                  <p className = "hey">Hey</p>
-                  <h1>Im Luis Molinuevo</h1>
-                  <p className = "intro">A FullStack Webdeveloper from NYC that builds scalable Web Applcations.</p>
-                  {/* <button className="contact-button"> */}
+                  <p className = "hey">Hello!</p>
+                  <h1>Im Luis</h1>
+                  <h1><span className = "accent">Moli</span>nuevo</h1>
+                  {/* <Button variant="text">Text</Button> */}
+                  <p className = "intro">A FullStack Webdeveloper</p>
                     <a className="contact-button" href="#contact-me">Hire Me</a>
-                  {/* </button> */}
                 </div>
-                <div>
+                {/* <div>
                   <p className="emjoi">👨‍💻</p>
-                  <p>Hey</p>
-                </div>
+                </div> */}
               </div>
 
 
