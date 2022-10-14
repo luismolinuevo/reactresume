@@ -67,21 +67,56 @@
         padding-top: 10px;
     }
 
+    .heading {
+        padding-bottom: 60px;
+    }
+
 }
 
 @media (max-width: 500px) {
+    .heading {
+        font-size: 35px;
+    }
     .about, .skills {
         width: auto;
     }
 
     .skills {
         padding-top: 10px;
-
     }
+
+    .heading {
+        padding-bottom: 50px;
+    }
+
+    .about {
+        font-size: 20px;
+    }
+
+    .skills {
+        font-size: 35px;
+    }
+
+    .skills p {
+        font-size: 20px;
+    }
+
 }
 
 @media (max-width: 350px) {
     .about {
+        font-size: 20px;
+    }
+
+    .heading {
+        padding-bottom: 40;
+    }
+
+    .skills {
+        font-size: 30px;
+    }
+
+    .skills p {
         font-size: 20px;
     }
 }

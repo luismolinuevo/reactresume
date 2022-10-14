@@ -115,3 +115,44 @@ header div, nav {
 		font-size: 1.5rem;
 	}
 }
+
+@media (max-width: 800px) {
+	.container {
+		padding: 0px 60px;
+	}
+}
+
+@media (max-width: 350px) {
+	.container {
+		padding: 0px 25px;
+	}
+
+	.logo {
+		font-size: 1.5rem;
+	}
+
+	header .nav-btn {
+		font-size: 1.5rem;
+	}
+
+	header {
+		margin-top: 5px;
+		height: 75;
+	}
+}
+
+@media (max-width: 260px) {
+	header {
+		margin-top: 0px;
+		height: 60px;
+	}
+
+	.logo {
+		font-size: 1.3rem;
+	}
+
+	header .nav-btn {
+		font-size: 1.3rem;
+	}
+
+}
