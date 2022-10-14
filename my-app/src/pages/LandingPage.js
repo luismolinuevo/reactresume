@@ -31,5 +31,4 @@ const LandingPage = () => {
 export default LandingPage
 
 
-//make good and longer about me. Maybe get different colors that make the page feel more alive.Find something to take up some space
-//colors https://color.adobe.com/explore?page=2
+//try and see how it looks with the infomation in the center

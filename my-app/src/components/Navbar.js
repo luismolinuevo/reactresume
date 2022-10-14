@@ -35,7 +35,7 @@ const Navbar = () => {
                     <div className = "navbar">
                         <h1 className = "logo">Moli<span className ="accent">nuevo</span></h1>
                         <nav className={expandNavbar ? "responsive_nav" : " "}>
-                            <a href='/' onClick={handleClick}>Home</a>
+                            <a href='#home' onClick={handleClick}>Home</a>
                             <a href='#skills' onClick={handleClick}>Skills</a>
                             <a href='/#' onClick={handleClick}>Projects</a>
                             <a href='/#' onClick={handleClick}>Resume</a>
