@@ -9,7 +9,6 @@
 }
 
 body {
-	/* background-color: #D9CDBF; */
 	background-color: #F2F2F2;
 	
 }
@@ -25,14 +24,10 @@ header {
 	align-items: center;
 	justify-content: space-between;
 	height: 80px;
-	/* padding: 0px 80px;  got this here so it stays sticky */
 	background-color: transparent;
 	color: #05AFF2;
-	/* color:#6F7E80; */
 	position: sticky;
 	top: 0;
-
-	/* z-index: 999; */
 	margin-top: 10px;
 }
 
@@ -47,7 +42,6 @@ header.active a {
 }
 
 .navbar {
-	/* padding-top: 25px; */
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
@@ -56,7 +50,6 @@ header.active a {
 nav a {
 	font-size: 20px;
 	font-weight: bold;
-	/* color:#8C613B; */
 	color:black;
 	margin: 0 1rem;
 	text-decoration: none;

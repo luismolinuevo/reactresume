@@ -64,4 +64,3 @@ const Navbar = () => {
 export default Navbar
 
 
-//If i was making a website with different pages then I would use react-router-dom
