@@ -1,0 +1,14 @@
+#projects {
+    height: 100vh;
+    padding: 80px 0px;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project-element {
+    width: 400px;
+}

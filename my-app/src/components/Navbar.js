@@ -37,7 +37,7 @@ const Navbar = () => {
                         <nav className={expandNavbar ? "responsive_nav" : " "}>
                             <a href='#home' onClick={handleClick}>Home</a>
                             <a href='#skills' onClick={handleClick}>Skills</a>
-                            <a href='/#' onClick={handleClick}>Projects</a>
+                            <a href='/#projects' onClick={handleClick}>Projects</a>
                             <a href='/#' onClick={handleClick}>Resume</a>
                             <a href='#contact-me' className ="contact-button" onClick={handleClick}>Contact Me</a>
                             <button className="nav-btn nav-close-btn" onClick={() => {
