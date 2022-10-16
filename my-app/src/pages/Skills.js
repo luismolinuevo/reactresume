@@ -13,10 +13,10 @@ const Skills = () => {
         <div className = "skills-main">
             <div className="about">
               <p className = "accent">Hello!</p>
-              <p>My name is Luis Molinuevo and Im a Web Developer. 
+              <p>My name is Luis Molinuevo and I'm a Web Developer. 
                 Im currently a Computer Science senior at Lehman College. 
                 Im also In The Knowledge House Innovation and Cuny Tech Prep Fellowships.
-                I use modern technology to build fully responsive full stack applcations.
+                I use modern technology to build fully responsive full stack applications.
                 I love to upscale my skills and problem solve.</p>
             </div>
             
