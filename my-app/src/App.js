@@ -4,6 +4,7 @@ import Contact from './pages/Contact';
 import LandingPage from './pages/LandingPage';
 import Projects from './pages/Projects';
 import Skills from "./pages/Skills"
+import Footer from "./components/Footer"
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Skills/>
       <Projects/>
       <Contact/>
+      <Footer/>
     </React.Fragment>
       
     

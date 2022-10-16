@@ -1,5 +1,5 @@
 #contact-me{
-    height: 100vh;
+    height: 100%;
     padding: 80px 0px;
     width: 100%;
 }
@@ -43,4 +43,58 @@ form {
     outline: none;
     text-align: center;
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .input {
+        width: 350px;
+        font-size: 17px;
+    }
+
+    .mesg {
+        width: 350px;
+        font-size: 17px;
+    }
+
+    .submit {
+        padding: 10px 18px;
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 480px) {
+    .input {
+        width: 250px;
+        font-size: 15px;
+    }
+
+    .mesg {
+        width: 250px;
+        font-size: 15px;
+    }
+
+    .submit {
+        padding: 8px 15px;
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .input {
+        width: 190px;
+        font-size: 15px;
+    }
+
+    .mesg {
+        width: 190px;
+        font-size: 15px;
+    }
+
+    .submit {
+        padding: 8px 15px;
+        font-size: 15px;
+    }
+
+
 }
