@@ -96,19 +96,26 @@ header div, nav {
 		align-items: center;
 		justify-content: center;
 		gap: 1.5rem;
-		background-color: #8CA672;
+		background-color: #05AFF2;
 		transition: 1s;
 		transform: translateY(-100vh);
+		
 	}
 
 	header .responsive_nav {
 		transform: none;
 	}
 
+	header.active {
+		opacity: 1;
+
+	}
+
 	nav .nav-close-btn {
 		position: absolute;
 		top: 2rem;
 		right: 2rem;
+		color:white;
 	}
 
 	nav a {
